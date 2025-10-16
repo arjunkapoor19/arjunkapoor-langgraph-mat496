@@ -12,3 +12,12 @@ We learned how to make simple graphs, it was taught how to add nodes, edges and 
  Lesson 3:
 
  LangGraph Studio was introduced in this video, although I am using Visual Studio Code.
+
+Lesson 4:
+
+We learn about how to use AI agents and use messages to send or invoke queries. We also learn about the concept of tools and how we can use them within our code in combination with AI models. We also learned about how to use messages as a state and learned about reducers to deal with issues regarding overriding state value which can help us handle how state updates are performed.
+
+Code edit: I changed the initial messages in the chat_model section and made my own custom calls about Batman. I created another tool called modulus and called it throughout the rest of the code.
+
+Lesson 5:
+
