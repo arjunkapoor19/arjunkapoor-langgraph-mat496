@@ -30,3 +30,9 @@ Lesson 6:
 In this lecture we were taught the ReAct architecture, which allows the LLM to loop between reasoning and tool use, allowing us to use multiple tools and perform multi-step arithmetic.
 
 Code Edit: Added 2 new tools, subtract and to_percentage and also tried 2 new prompts which involves multi level complex arithmetic demonstrating the ReAct architecture.
+
+Lesson 7:
+
+We used the MemorySaver function for persisitence. Basically we save whatever is in the previous output in memory and use it for further instances using the thread_id which stores graph states.
+
+Code Edit: I added multiple interactions using the same thread_id, and then questioned the agent on the first calculation showing that the model is context-aware and remembers what it did earlier.
