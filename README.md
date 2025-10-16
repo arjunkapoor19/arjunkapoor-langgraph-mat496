@@ -8,3 +8,7 @@ Lesson 2:
 We learned how to make simple graphs, it was taught how to add nodes, edges and conditional edges and how to build the entire graphs.
 
  Code edit: I added another node, node4 and then connected that to the conditional edge, I used the path_map in this which allows us to properly connect more than 2 nodes.
+
+ Lesson 3:
+
+ LangGraph Studio was introduced in this video, although I am using Visual Studio Code.
