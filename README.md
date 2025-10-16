@@ -21,3 +21,6 @@ Code edit: I changed the initial messages in the chat_model section and made my 
 
 Lesson 5:
 
+In this lecture, we were taught how to use tools in our graph nodes itself using built in function ToolNode. We were also taught tools_condition built in function acting as a conditional edge for tools.
+
+Code Edit: I added more tools (add and sub), and tested calling them with slightly more complex language.
