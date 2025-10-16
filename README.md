@@ -24,3 +24,9 @@ Lesson 5:
 In this lecture, we were taught how to use tools in our graph nodes itself using built in function ToolNode. We were also taught tools_condition built in function acting as a conditional edge for tools.
 
 Code Edit: I added more tools (add and sub), and tested calling them with slightly more complex language.
+
+Lesson 6: 
+
+In this lecture we were taught the ReAct architecture, which allows the LLM to loop between reasoning and tool use, allowing us to use multiple tools and perform multi-step arithmetic.
+
+Code Edit: Added 2 new tools, subtract and to_percentage and also tried 2 new prompts which involves multi level complex arithmetic demonstrating the ReAct architecture.
