@@ -83,4 +83,12 @@ Code edit:
 Changed from ocean mammals to birds, told the model I know about cuckoos then asked the model about flamingos further using filtering.
 
 
+Lesson 5:
+
+Learned how to generate summaries of the ongoing conversation without changing the current context. Also avoided using filters and trimming. Learned memorysaver and thread ids.
+
+Code edit:
+
+Changed name from Lance to Arjun, instead of liking the 49ers, I told the AI I like FC Barcelona, one of my favourite football teams, and prompted a question about the team's star young player Lamine Yamal.
+
 
