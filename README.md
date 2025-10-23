@@ -1,3 +1,5 @@
+I have switched to using gpt-4o-mini instead of gpt-4o due to credit constraints.
+
 **MODULE 1**
 
 Lesson 1:
@@ -69,6 +71,16 @@ Learned about private states and their role in the intermediate working of the g
 Code edit: 
 
 Changed state['baz'] + 1 to state['baz'] * 3 and got the output {'foo': 9} instead of {'foo': 3}. Changed name to Arjun from Lance and also added 'see you!', in the message hence getting output {'answer': 'bye Arjun, see you!'}.
+
+Lesson 4:
+
+Learned how to handle long chatbot conversations in LangGraph by using message filtering and trimming techniques. Filtering helped remove older messages, while trimming allowed to control the total number of tokens. Also explored LangSmith tracing to observe how the model was being called and executed.
+
+![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/trim-lang-trace.png "LangGraph Stack - trim")
+
+Code edit:
+
+Changed from ocean mammals to birds, told the model I know about cuckoos then asked the model about flamingos further using filtering.
 
 
 
