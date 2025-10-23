@@ -1,3 +1,5 @@
+**MODULE 1**
+
 Lesson 1:
 
 The first lesson explained how LangGraph enables developers to combine reliable control flows with LLM-based decision-making to build adaptive AI agents. 
@@ -42,3 +44,13 @@ We used the MemorySaver function for persisitence. Basically we save whatever is
 
 Code Edit: I added multiple interactions using the same thread_id, and then questioned the agent on the first calculation showing that the model is context-aware and remembers what it did earlier.
 [Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/c5ebfcff424f5a1f0e920152893cec62a0e8aee2/agent-memory.ipynb)
+
+**MODULE 2** 
+
+Lesson 1:
+
+Learned how to define and manage states, also learned how to define a state schema in LangGraph using TypedDict.
+Also learned how to manage state schema using python's dataclasses. Learned the Pydantic library to validate types and checked if we are using correct values using Pydantic at runtime.
+
+Code Edit:
+Added another state, neutral, also changed the probability from 1/2 to 1/3 in all the respective implementations.
