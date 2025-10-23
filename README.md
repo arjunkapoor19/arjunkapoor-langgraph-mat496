@@ -62,5 +62,13 @@ Learned how updating the same value at multiple places runs us into problems and
 
 Code edit: Instead of giving state['foo'] + 1, changed it to state['foo'] * 3, now returning 3 instead. In messages, changed name from Lance to Arjun and instead of asking for information of marine biology, now asking for information on Batman.
 
+Lesson 3:
+
+Learned about private states and their role in the intermediate working of the graph. Learned how input and output is manipulated by filtering keys.
+
+Code edit: 
+
+Changed state['baz'] + 1 to state['baz'] * 3 and got the output {'foo': 9} instead of {'foo': 3}. Changed name to Arjun from Lance and also added 'see you!', in the message hence getting output {'answer': 'bye Arjun, see you!'}.
+
 
 
