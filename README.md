@@ -57,12 +57,15 @@ Also learned how to manage state schema using python's dataclasses. Learned the 
 Code Edit:
 Added another state, neutral, also changed the probability from 1/2 to 1/3 in all the respective implementations.
 
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/state-schema.ipynb)
 
 Lesson 2:
 
 Learned how updating the same value at multiple places runs us into problems and how reducers help us in resolving overwriting of state. Learned how operator.add helps us in forming concatenated lists. Learned how to use custom reducers to handle unaddresses issues.Learned about add_messages reducer and also message removal by id.
 
 Code edit: Instead of giving state['foo'] + 1, changed it to state['foo'] * 3, now returning 3 instead. In messages, changed name from Lance to Arjun and instead of asking for information of marine biology, now asking for information on Batman.
+
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/state-reducers.ipynb)
 
 Lesson 3:
 
@@ -72,16 +75,21 @@ Code edit:
 
 Changed state['baz'] + 1 to state['baz'] * 3 and got the output {'foo': 9} instead of {'foo': 3}. Changed name to Arjun from Lance and also added 'see you!', in the message hence getting output {'answer': 'bye Arjun, see you!'}.
 
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/multiple-schemas.ipynb)
+
 Lesson 4:
 
 Learned how to handle long chatbot conversations in LangGraph by using message filtering and trimming techniques. Filtering helped remove older messages, while trimming allowed to control the total number of tokens. Also explored LangSmith tracing to observe how the model was being called and executed.
 
-![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/trim-lang-trace.png "LangGraph Stack - trim")
+![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/images/trim-lang-trace.png "LangGraph Stack - trim")
 
 
 Code edit:
 
 Changed from ocean mammals to birds, told the model I know about cuckoos then asked the model about flamingos further using filtering.
+
+
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/trim-filter-messages.ipynb)
 
 
 Lesson 5:
@@ -92,7 +100,10 @@ Code edit:
 
 Changed name from Lance to Arjun, instead of liking the 49ers, I told the AI I like FC Barcelona, one of my favourite football teams, and prompted a question about the team's star young player Lamine Yamal.
 
-![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/memory-lang-trace.png "LangGraph Stack - trim")
+![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/images/memory-lang-trace.png "LangGraph Stack - trim")
+
+
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-summarization.ipynb)
 
 
 Lesson 6:
@@ -103,4 +114,6 @@ Code edit:
 
 Changed name from Lance to Arjun, changed message to from 49ers to I like FC Barcelona. Asked how many UCLs we have in langgraph studio.
 
-![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/local-lang-trace.png "LangGraph Stack - trim")
+![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/images/local-lang-trace.png "LangGraph Stack - trim")
+
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-external-memory.ipynb)
