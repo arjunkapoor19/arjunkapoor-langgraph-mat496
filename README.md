@@ -78,6 +78,7 @@ Learned how to handle long chatbot conversations in LangGraph by using message f
 
 ![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/trim-lang-trace.png "LangGraph Stack - trim")
 
+
 Code edit:
 
 Changed from ocean mammals to birds, told the model I know about cuckoos then asked the model about flamingos further using filtering.
@@ -91,4 +92,15 @@ Code edit:
 
 Changed name from Lance to Arjun, instead of liking the 49ers, I told the AI I like FC Barcelona, one of my favourite football teams, and prompted a question about the team's star young player Lamine Yamal.
 
+![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/memory-lang-trace.png "LangGraph Stack - trim")
 
+
+Lesson 6:
+
+Learned how to build chatbots with summarization capabilities, key highlight being we used an external memory using a sqlite database and checkpointer. Chatbot stored conversations in local database allowing us to pick off even after restarting notebook.
+
+Code edit:
+
+Changed name from Lance to Arjun, changed message to from 49ers to I like FC Barcelona. Asked how many UCLs we have in langgraph studio.
+
+![alt text](/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/local-lang-trace.png "LangGraph Stack - trim")
