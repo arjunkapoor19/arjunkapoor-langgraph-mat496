@@ -114,6 +114,8 @@ Code edit:
 
 Changed name from Lance to Arjun, changed message to from 49ers to I like FC Barcelona. Asked how many UCLs we have in langgraph studio.
 
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-external-memory.ipynb)
+
 ![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/images/local-lang-trace.png "LangGraph Stack - trim")
 
-[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-external-memory.ipynb)
+
