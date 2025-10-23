@@ -54,3 +54,13 @@ Also learned how to manage state schema using python's dataclasses. Learned the 
 
 Code Edit:
 Added another state, neutral, also changed the probability from 1/2 to 1/3 in all the respective implementations.
+
+
+Lesson 2:
+
+Learned how updating the same value at multiple places runs us into problems and how reducers help us in resolving overwriting of state. Learned how operator.add helps us in forming concatenated lists. Learned how to use custom reducers to handle unaddresses issues.Learned about add_messages reducer and also message removal by id.
+
+Code edit: Instead of giving state['foo'] + 1, changed it to state['foo'] * 3, now returning 3 instead. In messages, changed name from Lance to Arjun and instead of asking for information of marine biology, now asking for information on Batman.
+
+
+
