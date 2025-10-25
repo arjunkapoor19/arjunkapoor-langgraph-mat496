@@ -114,8 +114,34 @@ Code edit:
 
 Changed name from Lance to Arjun, changed message to from 49ers to I like FC Barcelona. Asked how many UCLs we have in langgraph studio.
 
-[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-external-memory.ipynb)
-
 ![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/images/local-lang-trace.png "LangGraph Stack - trim")
 
+[Link](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8d6d9e968ebf1f09fa32a015038674d58ccb4fa4/MODULE%202/chatbot-external-memory.ipynb)
 
+**MODULE 3** 
+
+Lesson 1:
+
+I learned what streaming is, how LangChain provides first-class streaming support, how to use .stream and .astream, the difference between streaming modes like updates and values, and how to use .astream_events for token-level event streaming.
+
+Code edit:
+
+Changed name from Lance to Arjun, changed team from 49ers to FC Barcelona.
+
+Lesson 2:
+
+I learned how breakpoints enable human-in-the-loop workflows by pausing execution for approval, debugging, or editing; how streaming with None and a thread ID resumes execution from the current state; and how to incorporate user choices so the graph continues based on input
+
+Code edit: 
+
+Added another modulus tool, used it on 10 and 4, curiously in the output the memory still had the addition of 2 and 3 as well as the new modulus operation and printed both cumulatively in the output.
+
+![alt text]("/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/Module 3, Lesson 3.png " "LangGraph Stack - trim")
+
+Lesson 3:
+
+I learned how to actually intepret human feedback and use it to edit graph state at the breakpoint and also use graph.get_state(thread) and graph.update_state(thread,updates) after interrupting the graph.
+
+Code edit:
+
+Again added the modulus tool and used it on 10 and 6 and also, entered human input. Also made a small math quiz bot which randomises questions and tells the user if the answers are correct or not.
