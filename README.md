@@ -136,7 +136,7 @@ Code edit:
 
 Added another modulus tool, used it on 10 and 4, curiously in the output the memory still had the addition of 2 and 3 as well as the new modulus operation and printed both cumulatively in the output.
 
-![alt text]("/Users/arjunkapoor/Documents/Code/LLM/arjunkapoor-langgraph-mat496/images/Module 3, Lesson 3.png " "LangGraph Stack - trim")
+![alt text]("https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/main/images/Module%203%2C%20Lesson%203.png" LangGraph Stack - trim")
 
 Lesson 3:
 
@@ -145,3 +145,11 @@ I learned how to actually intepret human feedback and use it to edit graph state
 Code edit:
 
 Again added the modulus tool and used it on 10 and 6 and also, entered human input. Also made a small math quiz bot which randomises questions and tells the user if the answers are correct or not.
+
+Lesson 4:
+
+I learned how to override node interrupts based on conditions.
+
+Code edit:
+
+Changed code and learned through that.
