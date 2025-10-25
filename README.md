@@ -145,3 +145,19 @@ I learned how to actually intepret human feedback and use it to edit graph state
 Code edit:
 
 Again added the modulus tool and used it on 10 and 6 and also, entered human input. Also made a small math quiz bot which randomises questions and tells the user if the answers are correct or not.
+
+Lesson 4:
+
+I learned how to override node interrupts based on conditions.
+
+Code edit:
+
+Changed code and learned through that.
+
+Lesson 5:
+
+I learned that I can view all past graph execution states using get_state_history(), each identified by a unique checkpoint_id. I can restore and replay execution from any point by extracting its config and passing it back into graph.stream. I also learned about forking, which allows branching from a previous state to explore new paths without affecting the original execution, by creating and using a new fork_config.
+
+Code edit:
+
+Changed code throughout and added an example of forking at the end.
