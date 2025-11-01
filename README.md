@@ -180,3 +180,11 @@ I learned that subgraphs are reusable portions of a larger graph that maintain t
 Code edit:
 
 Added my own example at the end
+
+Lesson 3:
+
+I learned about subgraphs, their states and what are their uses,how to add subgraphs to parent graphs and using reducers to prevent collisions between subgraphs.
+
+Code edit:
+
+Added my own example at the end
