@@ -161,3 +161,13 @@ I learned that I can view all past graph execution states using get_state_histor
 Code edit:
 
 Changed code throughout and added an example of forking at the end.
+
+**MODULE 4**
+
+Lesson 1:
+
+I learned that errors may occur when a state key receives multiple values simultaneously from parallel nodes. To address this, LangGraph applies reducers, which merge parallel updates before moving to the next non-parallel state in the execution graph. By defining a custom reducer, we can control how these values are combined—for example, ensuring they are sorted or processed in a specific order—preventing state conflicts and maintaining predictable behavior when updating shared keys in parallel workflows.
+
+Code edit:
+
+Made a tavily example with 3 parallelization nodes.
