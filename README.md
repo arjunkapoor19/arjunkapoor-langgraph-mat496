@@ -187,4 +187,12 @@ I learned about subgraphs, their states and what are their uses,how to add subgr
 
 Code edit:
 
-Added my own example at the end
+Added my own example at the end.
+
+Lesson 4:
+
+I learned to integrate all LangGraph concepts covered so far into a single workflow, using multiple tools together and generating a summarized Markdown report from multiple inputs.
+
+Code Edit:
+
+Added a code to print the number of analysts in the final report.
