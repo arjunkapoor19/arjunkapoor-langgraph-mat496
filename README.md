@@ -172,6 +172,8 @@ Code edit:
 
 Made a tavily example with 3 parallelization nodes.
 
+![alt text]("https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob 8684c054368420130c9a871e8fb551f6629729c3/images/Module%204%2C%20Lesson%201.png" "Module 4 Lesson 1")
+
 
 Lesson 2:
 
@@ -185,6 +187,8 @@ Lesson 3:
 
 I learned about subgraphs, their states and what are their uses,how to add subgraphs to parent graphs and using reducers to prevent collisions between subgraphs.
 
+![alt text]("https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8684c054368420130c9a871e8fb551f6629729c3/images/Module%203%2C%20Lesson%203.png" "Module 4 Lesson 3")
+
 Code edit:
 
 Added my own example at the end.
@@ -196,3 +200,5 @@ I learned to integrate all LangGraph concepts covered so far into a single workf
 Code Edit:
 
 Added a code to print the number of analysts in the final report.
+
+![alt text]("https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/8684c054368420130c9a871e8fb551f6629729c3/images/Module%204%2C%20Lesson%204.png" "Module 4 Lesson 4")
