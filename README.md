@@ -171,3 +171,12 @@ I learned that errors may occur when a state key receives multiple values simult
 Code edit:
 
 Made a tavily example with 3 parallelization nodes.
+
+
+Lesson 2:
+
+I learned that subgraphs are reusable portions of a larger graph that maintain their own internal state, allowing modular and isolated execution; they can be integrated into parent graphs to build more complex workflows, and reducers are used to prevent state collisions when multiple subgraphs update shared keys simultaneously.
+
+Code edit:
+
+Added my own example at the end
