@@ -172,7 +172,7 @@ Code edit:
 
 Made a tavily example with 3 parallelization nodes.
 
-![alt text](https://raw.githubusercontent.com/arjunkapoor19/arjunkapoor-langgraph-mat496/refs/heads/main/images/Module%204%2C%20Lesson%204.png "Module 4 Lesson 1")
+![alt text](https://github.com/arjunkapoor19/arjunkapoor-langgraph-mat496/blob/312fe9b42516bc65347531a71f03f27f96a354ef/images/Module%204%2C%20Lesson%201.png "Module 4 Lesson 1")
 
 
 Lesson 2:
